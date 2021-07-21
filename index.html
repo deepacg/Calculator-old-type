@@ -9,37 +9,38 @@
     <script src="script.js"></script>
 </head>
 <body>
-
+    <h1 class='heading'>Old type calculator</h1>
     <div class="content">
         <input id="text1" type="text" value='0'>
         
-        <div class="section0">
-            <button class="button-div" onclick="operatorClick('/')">/</button>
+        <div class="row">
+            <button class="button-clr" onclick="clearScr()">C</button>
+            
         </div>
 
-        <div class="section1">
-            <button class="button7" onclick="clickMe(7)">7</button>
-            <button class="button8" onclick="clickMe(8)">8</button>
-            <button class="button9" onclick="clickMe(9)">9</button>
-            <button class="button-mul" onclick="operatorClick('x')">x</button>
+        <div class="row">
+            <button class="button" onclick="buttonClick(7)">7</button>
+            <button class="button" onclick="buttonClick(8)">8</button>
+            <button class="button" onclick="buttonClick(9)">9</button>
+            <button class="button" onclick="operatorClick('/')">/</button>
         </div>
-        <div class="section2">
-            <button class="button4" onclick="clickMe(4)">4</button>
-            <button class="button5" onclick="clickMe(5)">5</button>
-            <button class="button6" onclick="clickMe(6)">6</button>
-            <button class="button-minus" onclick="operatorClick('-')">-</button>
+        <div class="row">
+            <button class="button" onclick="buttonClick(4)">4</button>
+            <button class="button" onclick="buttonClick(5)">5</button>
+            <button class="button" onclick="buttonClick(6)">6</button>
+            <button class="button" onclick="operatorClick('x')">x</button>
         </div>
-        <div class="section3">
-            <button class="button1" onclick="clickMe(1)">1</button>
-            <button class="button2" onclick="clickMe(2)">2</button>
-            <button class="button3" onclick="clickMe(3)">3</button>
-            <button class="button-plus" onclick="operatorClick('+')">+</button>
+        <div class="row">
+            <button class="button" onclick="buttonClick(1)">1</button>
+            <button class="button" onclick="buttonClick(2)">2</button>
+            <button class="button" onclick="buttonClick(3)">3</button>
+            <button class="button" onclick="operatorClick('-')">-</button>
         </div>
-        <div class="section4">
-            <button class="button-c" onclick="clearScr()">C</button>
-            <button class="button0" onclick="clickMe(0)">0</button>
-            <button class="button-dot" onclick="pointClick()">.</button>
-            <button class="button-equals" onclick="equalsClick()">=</button>
+        <div class="row">
+            <button class="button" onclick="pointClick()">.</button>
+            <button class="button" onclick="buttonClick(0)">0</button>
+            <button class="button" onclick="equalsClick()">=</button>
+            <button class="button" onclick="operatorClick('+')">+</button>
         </div>
     </div>
     

@@ -1,19 +1,31 @@
+.heading {
+    margin-left: 850px;
+    margin-top: 100px;
+}
 .content{
-    margin-top: 200px;
+    height: 650px;
+    width: 380px;
+    margin-top: 50px;
     margin-left: 800px;
     border: solid 1px;
-    background-color: rgb(201, 113, 113);
+    background-color: rgb(142, 211, 224);
     border-style: dotted;
     border-radius: 35px;
-    height: 510px;
-    width: 380px;
+}
+.row {
+    border: 1px solid;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: rgb(122, 29, 76);
+    margin: 10px;
+    padding-bottom: 20px;
 }
 
 #text1{
     margin-top: 40px;
     margin-left: 20px;
-    height: 31px;
-    width: 320px;
+    height: 35px;
+    width: 330px;
     font-size: 25px;
     text-align: right;
     border-radius: 10px;
@@ -21,262 +33,35 @@
     pointer-events: none;
 }
 
-.button1{
-    margin-left: 30px;
-    margin-right: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(177, 65, 65);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button1:hover {
-    background-color: rgb(114, 42, 42);
-}
-
-.button2{
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(117, 75, 189);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button2:hover {
-    background-color: rgb(71, 45, 116);
-}
-.button3{
- 
+.button{
     margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(75, 187, 108);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button3:hover {
-    background-color: rgb(50, 122, 72);
-}
-.button4{
-
-    margin-left: 30px;
-    margin-right: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(179, 65, 163);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button4:hover {
-    background-color: rgb(110, 40, 101);
-}
-.button5{
-
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(153, 170, 59);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button5:hover {
-    background-color: rgb(100, 110, 39);
-}
-.button6{
-
-    margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(72, 165, 182);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button6:hover {
-    background-color: rgb(48, 111, 122);
-}
-.button7{
-
-    margin-left: 30px;
-    margin-right: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(172, 66, 66);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button7:hover {
-    background-color: rgb(105, 40, 40);
-}
-.button8{
-
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(72, 184, 72);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button8:hover {
-    background-color: rgb(47, 121, 47);
-}
-.button9{
-
-    margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(78, 90, 197);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button9:hover {
-    background-color: rgb(46, 53, 117);
-}
-
-.button0{
     margin-top: 20px;
-    margin-left: 20px;
     height: 60px;
     width: 60px;
     font-size: 25px;
     border-radius: 10px;
-    background-color: rgb(155, 134, 134);
+    background-color: rgb(133, 104, 211);
     color: #fff;
     border-color: rgb(172, 171, 171);
     cursor: pointer
 }
-.button0:hover {
-    background-color: rgb(104, 88, 88);
-}
-.button-c{
-    margin-top: 20px;
-    margin-left: 30px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(167, 167, 167);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button-c:hover {
-    background-color: rgb(112, 112, 112);
-}
-.button-dot{
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(167, 167, 167);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button-dot:hover {
-    background-color: rgb(112, 112, 112);
-}
-.button-mul{
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(167, 167, 167);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button-mul:hover {
-    background-color: rgb(112, 112, 112);
+.button:hover {
+    background-color: rgb(70, 45, 139);
 }
 
-.button-div{
+.button-clr{
     margin-top: 20px;
-    margin-left: 285px;
+    margin-left: 275px;
     height: 60px;
     width: 60px;
     font-size: 25px;
     border-radius: 10px;
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(133, 104, 211);
     color: #fff;
     border-color: rgb(172, 171, 171);
     cursor: pointer
 }
-.button-div:hover {
-    background-color: rgb(112, 112, 112);
+.button-clr:hover {
+    background-color: rgb(70, 45, 139);
 }
 
-.button-plus{
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(167, 167, 167);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button-plus:hover {
-    background-color: rgb(112, 112, 112);
-}
-.button-minus{
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(167, 167, 167);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-.button-minus:hover {
-    background-color: rgb(112, 112, 112);
-}
-
-.button-equals{
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 25px;
-    border-radius: 10px;
-    background-color: rgb(167, 167, 167);
-    color: #fff;
-    border-color: rgb(172, 171, 171);
-    cursor: pointer
-}
-
-.button-equals:hover {
-    background-color: rgb(112, 112, 112);
-}

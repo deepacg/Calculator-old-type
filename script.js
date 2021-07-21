@@ -3,7 +3,7 @@ var result=0, new_value=0, old_value=0
 var operator;
 var isPointClicked=0
 
-function clickMe(val) {
+function buttonClick(val) {
     
     if(isOperatorClicked==1 || document.getElementById("text1").value=='0') {
         document.getElementById("text1").value=val
